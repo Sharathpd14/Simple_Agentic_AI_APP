@@ -25,8 +25,8 @@ class LoadStreamlitUI:
 
 
     def load_streamlit_ui(self):
-        st.set_page_config(page_title= "🤖 " + self.config.get_page_title(), layout="wide")
-        st.header("🤖 " + self.config.get_page_title())
+        st.set_page_config(page_title="🤖 " + str(self.config.get_page_title() or "AI App"), layout="wide")
+        st.header("🤖 " + str(self.config.get_page_title() or "AI App"))
         st.session_state.timeframe = ''
         st.session_state.IsFetchButtonClicked = False
         st.session_state.IsSDLC = False

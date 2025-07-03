@@ -1,7 +1,9 @@
 langchain
 langgraph
+langchain_google_genai
 langchain-core
 langchain-community
 langchain-groq
 faiss-cpu
 streamlit
+tavily-python
